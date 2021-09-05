@@ -21,15 +21,8 @@
     "index.js"
   ],
   "main": "index.js",
-  "np": {
-    "yarn": true
-  },
-  "scripts": {
-    "release": "np"
-  },
   "devDependencies": {
     "@types/prettier": "^2.3.2",
-    "np": "^7.5.0",
     "prettier": "^2.3.2"
   },
   "peerDependencies": {

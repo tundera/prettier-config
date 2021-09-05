@@ -1,0 +1,38 @@
+{
+  "name": "@tunderadev/prettier-config",
+  "description": "My custom Prettier config",
+  "license": "MIT",
+  "author": {
+    "name": "Philip Johnston",
+    "url": "https://github.com/tunderadev",
+    "email": "tunderadevdev@gmail.com"
+  },
+  "homepage": "https://github.com/tunderadev/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tunderadev/prettier-config"
+  },
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "np": {
+    "yarn": true
+  },
+  "scripts": {
+    "release": "np"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.3.2",
+    "np": "^7.5.0",
+    "prettier": "^2.3.2"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  }
+}

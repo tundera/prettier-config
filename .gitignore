@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+dist
+*.log
+
+# yarn package manger
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

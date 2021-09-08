@@ -1,5 +1,5 @@
 {
-  "name": "@slamdoor/prettier-config",
+  "name": "prettier-config-slamdoor",
   "version": "0.1.0",
   "description": "My custom Prettier config",
   "license": "MIT",
@@ -14,8 +14,7 @@
     "url": "https://github.com/tundera/prettier-config"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   },
   "files": [
     "index.js"

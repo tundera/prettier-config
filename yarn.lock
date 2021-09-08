@@ -5,9 +5,16 @@ __metadata:
   version: 4
   cacheKey: 8
 
-"@slamdoor/prettier-config@workspace:.":
+"@types/prettier@npm:^2.3.2":
+  version: 2.3.2
+  resolution: "@types/prettier@npm:2.3.2"
+  checksum: c4313e16650811f47b07a0fa7ac0742e966f61283a7292eb667fd4626d760bf3b7d896be3eaabb3354ad45fdbe3a340299b018dd3bcce1ff753d030a8cd2479c
+  languageName: node
+  linkType: hard
+
+"prettier-config-slamdoor@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@slamdoor/prettier-config@workspace:."
+  resolution: "prettier-config-slamdoor@workspace:."
   dependencies:
     "@types/prettier": ^2.3.2
     prettier: ^2.3.2
@@ -15,13 +22,6 @@ __metadata:
     prettier: "*"
   languageName: unknown
   linkType: soft
-
-"@types/prettier@npm:^2.3.2":
-  version: 2.3.2
-  resolution: "@types/prettier@npm:2.3.2"
-  checksum: c4313e16650811f47b07a0fa7ac0742e966f61283a7292eb667fd4626d760bf3b7d896be3eaabb3354ad45fdbe3a340299b018dd3bcce1ff753d030a8cd2479c
-  languageName: node
-  linkType: hard
 
 "prettier@npm:^2.3.2":
   version: 2.3.2

@@ -1,11 +1,11 @@
-# prettier-config-slamdoor
+# @slamdoor/prettier-config
 
 > My personal [Prettier](https://prettier.io/) config.
 
 ## Install
 
 ```bash
-yarn add prettier-config-slamdoor --dev
+yarn add @slamdoor/prettier-config --dev
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ In your Prettier config file:
 
 ```js
 module.exports = {
-  extends: ["prettier-config-slamdoor"]
+  extends: ["@slamdoor/prettier-config"]
 }
 ```
 
@@ -22,7 +22,7 @@ or your `package.json`:
 
 ```json
 {
-  "prettier": "prettier-config-slamdoor"
+  "prettier": "@slamdoor/prettier-config"
 }
 ```
 

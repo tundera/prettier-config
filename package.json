@@ -1,5 +1,6 @@
 {
   "name": "@tunderadev/prettier-config",
+  "version": "0.1.0",
   "description": "My custom Prettier config",
   "license": "MIT",
   "author": {
@@ -12,7 +13,6 @@
     "type": "git",
     "url": "https://github.com/tunderadev/prettier-config"
   },
-  "version": "0.1.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
@@ -27,5 +27,6 @@
   },
   "peerDependencies": {
     "prettier": "*"
-  }
+  },
+  "packageManager": "yarn@3.0.2"
 }

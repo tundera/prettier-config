@@ -5,13 +5,13 @@
   "license": "MIT",
   "author": {
     "name": "Philip Johnston",
-    "url": "https://github.com/tunderadev",
+    "url": "https://github.com/tundera",
     "email": "tunderadevdev@gmail.com"
   },
-  "homepage": "https://github.com/tunderadev/prettier-config",
+  "homepage": "https://github.com/tundera/prettier-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tunderadev/prettier-config"
+    "url": "https://github.com/tundera/prettier-config"
   },
   "publishConfig": {
     "access": "public",

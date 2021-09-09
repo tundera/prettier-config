@@ -1,5 +1,5 @@
 {
-  "name": "prettier-config-slamdoor",
+  "name": "@tundera/prettier-config",
   "version": "0.1.0",
   "description": "My custom Prettier config",
   "license": "MIT",
